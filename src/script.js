@@ -24,7 +24,7 @@ write();
 
 // Display action item for animation after typing ends
 let animate = setTimeout( () => {
-  document.querySelector('#lottie').innerHTML = '<lottie-player src="https://thehelpfultipper.github.io/holiday_greetings/new_year_greet.json"  background="transparent"  speed="1" loop  autoplay></lottie-player>';
+  document.querySelector('#lottie').innerHTML = '<lottie-player src="${../new_year_greet.json}"  background="transparent"  speed="1" loop  autoplay></lottie-player>';
   
 }, text.length * 52);
 
