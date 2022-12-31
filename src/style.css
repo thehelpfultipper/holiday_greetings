@@ -1,0 +1,68 @@
+body {
+  height: 100vh;
+  margin: 0; padding: 0;
+  background-color: rgba(64, 69, 87, .9);
+  color: #FEFEFE;
+}
+
+#wrapper {
+/*   background: pink; */
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#wrapper > * {
+  width: 100%;
+  box-sizing: border-box; /* Account for border, padding, margins within given dim */
+}
+
+#text {
+/*   background: yellow; */
+  height: calc(100vh/3);
+  min-height: 200px; /* Absolute val to prevent shrinking */
+  padding: 10px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+#mssg {
+/*   background: white; */
+  font-family: Palatino, Helvetica, san-serif;
+  line-height: 1.5em;
+  letter-spacing: 0.05em;
+  font-size: 1.868rem;
+}
+
+#animation {
+/*   background: salmon; */
+  height: calc(100vh * 3/4);
+  min-height: 300px;
+  display: flex;
+/*   justify-content: center; */
+  align-items: flex-start;
+}
+
+#lottie {
+/*   background: purple; */
+  width: 100%;
+  height: 100%; 
+  position: relative;
+}
+
+lottie-player {
+  position: absolute;
+  top: -50px;
+}
+
+
+@media (max-width: 460px) {
+  #mssg {
+    font-size: 1.65rem;
+  }
+}
+
+
