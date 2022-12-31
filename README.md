@@ -1,4 +1,4 @@
-# Responsive Flex Layout
+# Responsive Holiday Greet
 
 A Pen created on CodePen.io. Original URL: [https://codepen.io/thehelpfultipper/pen/wvxMZWM](https://codepen.io/thehelpfultipper/pen/wvxMZWM).
 <br /><br />
