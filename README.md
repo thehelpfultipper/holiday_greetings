@@ -7,7 +7,7 @@ A Pen created on CodePen.io. Original URL: [https://codepen.io/thehelpfultipper/
 Find a detailed walkthrough in the blog post on The Helpful Tipper blog (^_^)
 <br /><br />
 
-Objective:
+**Objective:** 
 
 A fun holiday greeting using Lottie animation built on a responsive flex layout. 
 
